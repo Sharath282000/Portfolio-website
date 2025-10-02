@@ -48,7 +48,7 @@ const Projects = () => {
         />
         <ProjectCard
           src={Picslogia}
-          link="https://github.com/Sharath282000/Picso-loggia"
+          link="https://picso-loggia.netlify.app/"
           h3="Picso Loggia"
           description="React JS, Rapid Api, PWA"
         />
