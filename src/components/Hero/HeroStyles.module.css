@@ -20,7 +20,7 @@
             margin: 0;
             transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
             img{
-                width: 30px;
+                width: 28px;
             }
         }
         a:hover{
@@ -75,13 +75,14 @@
 .description{
     max-width: 24ch;
     align-self: center;
+    line-height: 1.8;
 }
 
 .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 @media(width >=800px){

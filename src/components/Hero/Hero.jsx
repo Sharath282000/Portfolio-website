@@ -54,7 +54,7 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          Full Stack Developer at heart, cricket enthusiast off the field, and Oracle ERP Analyst at Deloitte
+          Driven by code as a <b>Full Stack Developer</b>, advising clients as an <b> Oracle ERP Analyst at Deloitte</b>, and unwinding with <b>Cricket</b>
         </p>
       </div>
     </section>
