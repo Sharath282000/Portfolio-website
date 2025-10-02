@@ -56,10 +56,6 @@ const Hero = () => {
         <p className={styles.description}>
           Full Stack Developer at heart, cricket enthusiast off the field, and Oracle ERP Analyst at Deloitte
         </p>
-        <a href={CV} target="_blank" download>
-          <button className="hover" id="button">Resume
-          </button>
-        </a>
       </div>
     </section>
   );
