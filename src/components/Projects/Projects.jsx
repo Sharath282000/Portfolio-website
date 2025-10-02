@@ -49,7 +49,7 @@ const Projects = () => {
         <ProjectCard
           src={Picslogia}
           link="https://picso-loggia.netlify.app/"
-          h3="Pics Loggia"
+          h3="Picso Loggia"
           description="React JS, Rapid Api, PWA"
         />
         <ProjectCard
