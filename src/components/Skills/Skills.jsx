@@ -37,8 +37,6 @@ const Skills = () => {
         <SkillList src={checkicon} alt="check icon" skill="Google Firebase" />
         <SkillList src={checkicon} alt="check icon" skill="Sanity Database" />
         <SkillList src={checkicon} alt="check icon" skill="SQL" />
-        <SkillList src={checkicon} alt="check icon" skill="Oracle Cloud ERP" />
-        <SkillList src={checkicon} alt="check icon" skill="Oracle Cloud HCM" />
       </div>
       <br></br>
       <br></br>
