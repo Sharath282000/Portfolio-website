@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 15%;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
+  padding: 5px;
 }
 
 textarea,
@@ -24,7 +26,7 @@ textarea {
 }
 input,
 textarea {
-  border-radius: 20px;
+  border-radius: 5px;
   border: #888 1px solid;
   box-sizing: border-box;
   justify-self: center;
@@ -38,12 +40,12 @@ textarea {
 
 input[type="submit"] {
   background-color: var(--btn-color);
-  border-radius: 20px;
+  border-radius: 5px;
   color: var(--btn-text-color);
   border: none;
   width: 126px;
   height: 50px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
@@ -61,7 +63,7 @@ input[type="submit"]:active {
 @media (width>=800px){
   textarea, input:not([type='submit']){
     width: 600px;
-    font-size: 20px;
+    font-size: 13px;
   }
   form{
     gap:40px;

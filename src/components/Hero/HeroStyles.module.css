@@ -8,7 +8,9 @@
     min-height: 500px;
 
     .hero{
-        max-width: 200px;
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
     }
 
     span{
@@ -62,10 +64,14 @@
 
 }
 .themeicon{
-    position: absolute;
-    right: 0;
-    width: 25px;
+    position: fixed;
+    right: 20px;
+    bottom : 20px;
+    width: 33px;
+    z-index : 1000;
     transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
+    display: block;
+    margin: 0 auto;
 }
 .themeicon:hover{
     cursor: pointer;
@@ -75,6 +81,7 @@
 .description{
     max-width: 24ch;
     align-self: center;
+    line-height: 1.8;
 }
 
 .info{
@@ -103,5 +110,14 @@
             max-width: 400px;
             width: 400px;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .themeicon {
+        bottom: 15px; 
+        right: 15px;    
+        width: 40px;    
+        height:40px;
     }
 }
