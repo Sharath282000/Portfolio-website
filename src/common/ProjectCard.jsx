@@ -42,12 +42,7 @@ const ProjectCard = ({project}) => {
         </p>
       </CardContent>
       <CardFooter>
-        <Button 
-          variant="outline" 
-          className="w-full text-black-600 border-black-600 hover:bg-gray-100 transition all duration-75 dark:text-black dark:bg-white"
-        >
-          <a href={project.link} target="blank">View Project</a>
-        </Button>
+          <a className="w-full px-4 py-2 text-black-600 border-black bg-black rounded-sm shadow-xl text-white hover:bg-white hover:text-black transition all duration-75 dark:text-black dark:hover:bg-black dark:hover:text-white dark:bg-white text-center font-medium" href={project.link} target="blank">View Project</a>
       </CardFooter>
     </Card>
   )
