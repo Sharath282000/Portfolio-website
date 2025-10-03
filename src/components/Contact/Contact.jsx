@@ -1,19 +1,11 @@
 import React, { Component } from 'react'
 import styles from './ContactStyles.module.css'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 
 const Contact = () => {
   return (
     <section id="contact" className={styles.container}>
-        <h1 className='text-center m-5'>Contact Me</h1>
-        <p className="text-sm text-black font-extralight line-clamp-1 m-8 text-center mb-8 dark:text-white">Let's make something great!</p>
+        <h1 className='text-center'>Contact Me</h1>
+        <p className="text-sm text-black font-extralight line-clamp-1 mt-4 text-center mb-8 dark:text-white">Let's make something great!</p>
             <form action="https://formspree.io/f/mgvevvzz" method='post'>
             <div className="formGroup">
                 <label htmlFor="name"hidden>Name</label>
@@ -27,7 +19,7 @@ const Contact = () => {
                 <label htmlFor="Message" hidden>Message</label>
                 <textarea name='message' placeholder='Message' id='message' required />
             </div>
-            <input type="submit" className='hoverbtn' value="Submit" />
+            <input type="submit" className='hoverbtn shadow-xl font-medium' value="Submit" />
         </form>
     </section>
   )
