@@ -66,8 +66,8 @@
 .themeicon{
     position: fixed;
     right: 20px;
-    bottom : 20px;
-    width: 33px;
+    bottom : 50px;
+    width: 37px;
     z-index : 1000;
     transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
     display: block;
@@ -79,7 +79,7 @@
 }
 
 .description{
-    max-width: 24ch;
+    max-width: 25ch;
     align-self: center;
     line-height: 1.8;
 }
@@ -115,7 +115,7 @@
 
 @media (max-width: 768px) {
     .themeicon {
-        bottom: 15px; 
+        bottom: 35px; 
         right: 15px;    
         width: 40px;    
         height:40px;
