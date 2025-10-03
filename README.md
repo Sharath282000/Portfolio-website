@@ -1,6 +1,8 @@
-🖥 Sharath Portfolio Website
+🖥 Sharath Portfolio Website - Version 1.2
 
-Welcome to the source code for my personal portfolio website — sharath-space.netlify.app
+Link - https://sharath-space.netlify.app/
+
+Welcome to the source code for my personal portfolio website
  — where I present my work, skills, and professional journey in a clean, interactive, and responsive way.
 
 🚀 Overview
