@@ -20,7 +20,7 @@
             margin: 0;
             transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
             img{
-                width: 28px;
+                width: 30px;
             }
         }
         a:hover{
@@ -64,6 +64,7 @@
 .themeicon{
     position: absolute;
     right: 0;
+    top : 0;
     width: 25px;
     transition: transform 200ms ease-in-out, transform 200ms ease-in-out;
 }
@@ -82,7 +83,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 @media(width >=800px){
