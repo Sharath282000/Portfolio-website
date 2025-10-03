@@ -1,8 +1,41 @@
-# React + Vite
+🖥 Sharath Portfolio Website - Version 1.1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link - https://sharath-space.netlify.app/
 
-Currently, two official plugins are available:
+Welcome to the source code for my personal portfolio website — where I present my work, skills, and professional journey in a clean, interactive, and responsive way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Overview
+
+This portfolio site is built to showcase:
+
+My projects (web apps, UI/UX work, coding exercises, etc.)
+
+My technical and design skills
+
+My background, education, and professional experience
+
+Ways to contact or collaborate
+
+It’s designed to be minimal, fast, and accessible on all devices.
+
+🛠 Tech Stack
+
+React JS — Component-based UI
+
+CSS3 — Custom styling for a clean and modern look
+
+Netlify — Deployment & hosting
+
+Responsive design principles (mobile-first)
+
+🎯 Features & Highlights
+
+Clean, minimal UI — Focus is on content with a smooth look & feel
+
+Responsive layout — Works across screen sizes: mobile, tablet, desktop
+
+Interactive project gallery — Showcases my best work with previews and links
+
+Smooth navigation & transitions — Seamless user experience
+
+Contact & social links — Easy to connect with me
