@@ -53,7 +53,7 @@ const Skills = () => {
   const stylings =[
     {
       id: 9,
-      skill: "Tailwind CSSS",
+      skill: "Tailwind CSS",
       icon: "🎨",
     },
     {
