@@ -22,6 +22,14 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Picso Loggio (Image Gallery)",
+    description: "An open-source,PWA-enabled application for searching and freely downloading high-quality images from a public API.",
+    techStack: "React Js, PWA, Rapid API (Image Fetching)",
+    imageUrl : Picslogia,
+    link: "https://picso-loggia.netlify.app/"
+  },
+  {
+    id: 3,
     title: "Netflix Clone (Previous)",
     description: "A functional clone of the Netflix UI showcasing front-end styling and API integration for content display.",
     techStack: "React Js, PWA, TMDB API",
@@ -29,7 +37,7 @@ const projectsData = [
     link: "https://net-flix-clone-app.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog-it (Full Stack Blog)",
     description: "A complete blogging platform featuring content creation, management, and user authentication.",
     techStack: "React Js, Sanity (Database), Tailwind CSS",
@@ -37,20 +45,12 @@ const projectsData = [
     link: "https://app-blog-it.netlify.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Julie: AI Personal Voice Assistant",
     description: "An AI voice assistant capable of sending emails, opening websites/apps, playing media, fetching data from Google, and performing OS commands.",
     techStack: "Python, Various Python Libraries (Speech Recognition, OS, Web Scraping)",
     imageUrl : AIassistance,
     link: "https://github.com/Sharath282000/AI-personal-voice-assistant-Julie"
-  },
-  {
-    id: 5,
-    title: "Picso Loggio (Image Gallery)",
-    description: "An open-source,PWA-enabled application for searching and freely downloading high-quality images from a public API.",
-    techStack: "React Js, PWA, Rapid API (Image Fetching)",
-    imageUrl : Picslogia,
-    link: "https://picso-loggia.netlify.app/"
   },
   {
     id: 6,

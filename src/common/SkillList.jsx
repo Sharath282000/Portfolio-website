@@ -1,9 +1,9 @@
 import React from "react";
 
-const SkillList = ({src,alt,skill}) => {
+const SkillList = ({icon,skill}) => {
   return (
     <span>
-      <img src={src} alt={alt}/>
+      <p>{icon}</p>
       <p>{skill}</p>
     </span>
   );
