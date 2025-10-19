@@ -4,14 +4,22 @@ import ProjectCard from "../../common/ProjectCard";
 import Netflixclone from "../../assets/Images/netflix-clone.png";
 import Blogit from "../../assets/Images/blog-light.png";
 import AIassistance from "../../assets/Images/artificial-intelligence-6767502_960_720.webp";
-import portofolio from "../../assets/Images/portfolio.png";
 import Picslogia from "../../assets/Images/pics gallery screenshot.png";
 import StudentsHub from "../../assets/Images/students hub.png";
 import Cinmehub from "../../assets/Images/cinema hub.png"
 import oldportfolio from "../../assets/Images/old portfolio.png"
 import newportfolio from "../../assets/Images/New portfolio.png"
+import cognitalk from "../../assets/Images/CogniTalk.png"
 
 const projectsData = [
+  {
+    id : 9,
+    title: "CogniTalk",
+    description: "A highly capable and friendly AI assistant. CogniTalk purpose is to assist you with a wide range of questions and tasks, ensuring every interaction is both helpful and engaging.",
+    techStack: "Next JS, Tailwind CSS, Google Gemini, Typescript",
+    imageUrl : cognitalk,
+    link : "https://cogni-talk.vercel.app/"
+  },
   {
     id: 1,
     title: "Updated Portfolio Website",
