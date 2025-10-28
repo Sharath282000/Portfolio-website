@@ -9,16 +9,16 @@ import StudentsHub from "../../assets/Images/students hub.png";
 import Cinmehub from "../../assets/Images/cinema hub.png"
 import oldportfolio from "../../assets/Images/old portfolio.png"
 import newportfolio from "../../assets/Images/New portfolio.png"
-import cognitalk from "../../assets/Images/CogniTalk.png"
+import Arivu from '../../assets/Images/Arivu.png'
 
 const projectsData = [
   {
     id : 9,
-    title: "CogniTalk",
-    description: "A highly capable and friendly AI assistant. CogniTalk purpose is to assist you with a wide range of questions and tasks, ensuring every interaction is both helpful and engaging.",
+    title: "Arivu AI",
+    description: "A highly capable and friendly AI text and voice assistant. Arivu purpose is to assist you with a wide range of questions and tasks, ensuring every interaction is both helpful and engaging.",
     techStack: "Next JS, Tailwind CSS, Google Gemini, Typescript",
-    imageUrl : cognitalk,
-    link : "https://cogni-talk.vercel.app/"
+    imageUrl : Arivu,
+    link : "https://arivu-ai.vercel.app/"
   },
   {
     id: 1,
