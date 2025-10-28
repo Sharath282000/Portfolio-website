@@ -20,6 +20,11 @@ const Skills = () => {
       skill: "JavaScript",
       icon: "🌐",
     },
+    {
+      id: 20,
+      skill: "TypeScript",
+      icon: "🌐",
+    },
   ]
 
   const backend =[
@@ -88,17 +93,17 @@ const Skills = () => {
 
   const databases =[
     {
-      id: 13,
+      id: 17,
       skill: "Google Firebase",
       icon: "🛢️",
     },
     {
-      id: 14,
+      id: 18,
       skill: "Sanity Database",
       icon: "🛢️",
     },
     {
-      id: 15,
+      id: 19,
       skill: "SQL",
       icon: "🛢️",
     },
