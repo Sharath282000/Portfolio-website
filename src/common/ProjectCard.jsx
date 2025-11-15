@@ -8,6 +8,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import { Badge } from "@/components/ui/badge";
+
 const ProjectCard = ({ project }) => {
   return (
     <Card
@@ -25,16 +27,14 @@ const ProjectCard = ({ project }) => {
         dark:shadow-gray-700
       "
     >
-     
-
       <CardHeader>
-         <div className="w-full h-full rounded-xl bg-white dark:bg-black flex items-center justify-center overflow-hidden">
-        <img
-          src={project.imageUrl}
-          alt={project.title}
-          className="w-full h-full rounded-xl mb-5"
-        />
-      </div>
+        <div className="w-full h-full rounded-xl bg-white dark:bg-black flex items-center justify-center overflow-hidden">
+          <img
+            src={project.imageUrl}
+            alt={project.title}
+            className="w-full h-full rounded-xl mb-5"
+          />
+        </div>
         <CardTitle className="text-lg font-bold leading-tight text-center dark:text-white">
           {project.title}
         </CardTitle>
@@ -46,10 +46,13 @@ const ProjectCard = ({ project }) => {
             {project.description}
           </p>
         </CardDescription>
-
-        <p className="text-xs font-semibold text-black-600 text-center dark:text-white">
-          Tech Stack: {project.techStack}
-        </p>
+        <div className="flex flex-wrap justify-center flex-row gap-2 w-full">
+          {project.techStack.map((d) => (
+            <Badge variant="secondary" className="shadow-md dark:text-white dark:bg-zinc-700 dark:shadow-2xl" key={project.id}>
+              {d}
+            </Badge>
+          ))}
+        </div>
       </CardContent>
 
       <CardFooter>
