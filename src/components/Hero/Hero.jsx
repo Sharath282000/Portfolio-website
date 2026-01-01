@@ -40,7 +40,7 @@ const Hero = () => {
           <a href="https://www.facebook.com/thala.sharath.5/" target="_blank">
             <img src={Facebookicon} alt="Facebook Icon" />
           </a>
-          <a href="https://twitter.com/Sharath282000" target="_blank">
+          <a href="https://x.com/Sharath_tech" target="_blank">
             <img src={twitter} alt="Twitter Icon" />
           </a>
           <a
