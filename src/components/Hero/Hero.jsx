@@ -3,22 +3,13 @@ import styles from "./HeroStyles.module.css";
 import HeroImg from "../../assets/Images/Hero-modified.png";
 import LightMode from "../../assets/Images/Light on.png";
 import DarkMode from "../../assets/Images/Lightsoff.png";
-import Instagramicon from "../../assets/Images/instagram.png";
-import Facebookicon from "../../assets/Images/facebook.png";
-import Twittericon from "../../assets/Images/twitter-x.png";
-import LinkedInicon from "../../assets/Images/linkedin.png";
-import Githubicon from "../../assets/Images/github.png";
-import CV from "../../assets/Images/Resume.pdf";
-import Twitterdark from "../../assets/Images/icons8-twitterx-48 (1).png";
-import Githubdark from "../../assets/Images/icons8-github-50.png";
 import { useTheme } from "../../common/ThemeContext";
+import { socials } from "../../../utils/social";
 
 const Hero = () => {
   const { theme, toggletheme } = useTheme();
 
   const themeicon = theme === "light" ? LightMode : DarkMode;
-  const twitter = theme === "light"? Twittericon : Twitterdark;
-  const github = theme === 'light' ? Githubicon : Githubdark
 
   return (
     <section id="hero" className={styles.container}>
@@ -34,27 +25,16 @@ const Hero = () => {
       <div className={styles.info}>
         <h1>Sharath</h1>
         <span>
-          <a href="https://www.instagram.com/sharath_officl/" target="_blank">
-            <img src={Instagramicon} alt="Instagram Icon" />
-          </a>
-          <a href="https://www.facebook.com/thala.sharath.5/" target="_blank">
-            <img src={Facebookicon} alt="Facebook Icon" />
-          </a>
-          <a href="https://x.com/Sharath_tech" target="_blank">
-            <img src={twitter} alt="Twitter Icon" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sharath-m-6936671b0/"
-            target="_blank"
-          >
-            <img src={LinkedInicon} alt="LinkedIn Icon" />
-          </a>
-          <a href="https://github.com/Sharath282000" target="_blank">
-            <img src={github} alt="Github Icon" />
-          </a>
+          {socials.map((data) => (
+            <a key={data.id} href={data.link} target="_blank">
+              <img src={data.icons[theme]} alt={data.alt} />
+            </a>
+          ))}
         </span>
         <p className={styles.description}>
-         Building solutions as an <b>Oracle Cloud Analyst at Deloitte 💼</b> coding creative projects as a <b>Full Stack Developer 💻</b>and finding joy in <b>Cricket 🏏 and Cinema 🎥</b>
+          Building solutions as an <b>Oracle Cloud Analyst at Deloitte 💼</b>{" "}
+          coding creative projects as a <b>Full Stack Developer 💻</b>and
+          finding joy in <b>Cricket 🏏 and Cinema 🎥</b>
         </p>
       </div>
     </section>
